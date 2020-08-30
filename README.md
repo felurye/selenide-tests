@@ -1,5 +1,16 @@
 # Selenide Study
 
+Estudos voltados para automação de teste Web com o uso do framework [Selenide](https://selenide.org/index.html). Os exemplos deste repositório são execultados no curso do [QA Ninja](https://www.qaninja.com.br/) - [Selenide: Automação de ponta a ponta em Java](https://dojo.qaninja.com.br/curso/selenide-java/).
+
+**Neste projeto é utilizado:**
+
+* Java;
+* TestNG;
+* Selenide;
+* Allure TestNG;
+* Docker;
+* Postgres (para gerar o banco da aplicação testada).
+
 ### Requisitos:
 
 * [Java 8](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
@@ -10,4 +21,15 @@
       O Docker Toolbox é um pacote de ferramentas da qual agiliza o processo de instalação nos ambientes Windows e Mac, o que não é necessário para 
       ambientes Linux.
     * [Para ambiente Linux](https://www.docker.com/get-started)
-    
+
+### Steps:
+
+* Clone o repositório:
+  
+  ``git clone https://github.com/felurye/selenide-study.git``
+
+* Importe na sua IDE de preferência.
+
+* Faça o update do projeto para baixar as dependências.
+
+* [Configure o Docker]().
