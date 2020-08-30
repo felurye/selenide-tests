@@ -32,4 +32,4 @@ Estudos voltados para automação de teste Web com o uso do framework [Selenide]
 
 * Faça o update do projeto para baixar as dependências.
 
-* [Configure o Docker]().
+* [Configure o Docker](https://github.com/felurye/selenide-study/blob/master/notes/ConfigDocker.md).
