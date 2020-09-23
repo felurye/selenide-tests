@@ -19,14 +19,17 @@
 
 ``docker run --name pgdb --network=skynet -e "POSTGRES_PASSWORD=qaninja" -p 5432:5432 -v var/lib/postgresql/data -d postgres``
 
-#### Configuração hosts para Docker Toolbox
-Por padrão, o container do Docker vem configurada no IP 127.0.0.1, mas no caso de quem utiliza o Docker Toolbox o IP será o IP da máquina virtual e para isso é necessário configurar o arquivo de hosts.
+#### Configuração arquivo hosts
+Por padrão, no ambiente Linux o container do Docker vem configurada no IP 127.0.0.1, mas no caso de quem utiliza o Docker Toolbox (Windows e Mac) o IP será o IP da Máquina Virtual. Para configurar o arquivo de hosts:
 
-* No Windows:
+* No Windows/Mac:
+
     Abra o arquivo hosts localizado em:
-    > C:\Windows\System32\drivers\etc
+    > No Windows: C:\Windows\System32\drivers\etc
+    
+    > No Mac: /private/etc/hosts
 
-    Adicione ao arquivo:
+    **Adicione ao arquivo:**
 
     ``192.168.99.100  pgdb ``
     
@@ -37,6 +40,21 @@ Por padrão, o container do Docker vem configurada no IP 127.0.0.1, mas no caso 
     ``192.168.99.100 ninjaplus-web``
 
     ***Verifique o IP gerado na sua máquina Virtual.***
+    
+* No Linux:
+
+    Abra o arquivo hosts localizado em:
+    > /etc/hosts
+
+    **Adicione ao arquivo:**
+
+    ``127.0.0.1  pgdb ``
+    
+    ``127.0.0.1 pgadmin``
+    
+    ``127.0.0.1 ninjaplus-api``
+    
+    ``127.0.0.1 ninjaplus-web``
 
 #### Subir o Administrador do Banco de Dados (PgAdmin)
 
