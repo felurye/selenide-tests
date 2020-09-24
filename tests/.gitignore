@@ -1,1 +1,6 @@
 /target/
+/.idea/
+/.settings/
+/allure-results/
+/build/
+/test-output/
