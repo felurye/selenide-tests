@@ -13,7 +13,7 @@ Estudos voltados para automação de teste Web com o uso do framework [Selenide]
 
 ### Requisitos:
 
-* [Java 8](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
+* [Java 8](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
 * [Intellij](https://www.jetbrains.com/pt-br/idea/download/#section=windows) (ou IDE de sua preferência)
 * Docker:
     * [Para ambiente Windows/Mac](https://github.com/docker/toolbox/releases)
