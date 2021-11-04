@@ -1,4 +1,4 @@
-# Selenide Study
+# Selenide Tests
 
 Estudos voltados para automação de teste Web com o uso do framework [Selenide](https://selenide.org/index.html). Os exemplos deste repositório são executados no curso do [QA Ninja](https://www.qaninja.com.br/) - [Selenide: Automação de ponta a ponta em Java](https://dojo.qaninja.com.br/curso/selenide-java/).
 
