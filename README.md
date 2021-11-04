@@ -26,7 +26,7 @@ Estudos voltados para automação de teste Web com o uso do framework [Selenide]
 
 * Clone o repositório:
   
-  ``git clone https://github.com/felurye/selenide-study.git``
+  ``git clone https://github.com/felurye/selenide-tests.git``
 
 * Importe na sua IDE de preferência.
 
